@@ -1,0 +1,129 @@
+.intro {
+  max-width: 64.85%;
+  margin-left: 11.56%;
+  margin-top: 7.18%;
+}
+
+.intro__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  margin-bottom: 4.82%;
+}
+
+.intro__quote {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 1.2%;
+  max-width: 88.9%;
+}
+
+.intro__quote-author {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: right;
+  max-width: 88.2%;
+}
+
+.intro__text {
+  margin-top: 3.85%;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  max-width: 86.99%;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 93.75%;
+    margin-left: 3.12%;
+    margin-right: 3.12%;
+    margin-top: 11.7%;
+  }
+
+  .intro__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 1.08;
+    margin-bottom: 6.94%;
+    max-width: 98.2%;
+  }
+
+  .intro__quote {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    max-width: 100%;
+  }
+
+  .intro__quote-author {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: right;
+    max-width: 100%;
+  }
+
+  .intro__text {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    max-width: 100%;
+    margin-top: 4.44%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20%;
+  }
+
+  .intro__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.09;
+    margin-bottom: 13.8%;
+    max-width: 100%;
+  }
+
+  .intro__quote {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.25;
+    max-width: 100%;
+    margin-bottom: 3.47%;
+  }
+
+  .intro__quote-author {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: right;
+    max-width: 100%;
+  }
+
+  .intro__text {
+    font-family: "Inter", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    max-width: 100%;
+    margin-top: 11.11%;
+  }
+}
